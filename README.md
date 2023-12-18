@@ -30,6 +30,10 @@ In this section, I include all the necessary dependencies needed to reproduce th
 * The data suggests that while the majority of the population is relatively young, with most individuals aged between 20 to 27 years, those who are interested in purchasing insurance tend to be older, with an average age of 45 years. Conversely, the average age of individuals who are not interested in insurance is 37 years, indicating that interest in insurance increases with age.
   ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/0cfe51d0-e0e1-41be-818a-205eedffa1e2)
 
+* The bar chart illustrates the gender breakdown of responses to accepting insurance, with males more likely to decline and females more likely to accept insurance.
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/e1b5e8c7-f933-412f-801a-c3e2e8e1a488)
+ ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/5eb60d85-6854-4ff0-bec1-0d88f85f2083)
+
 
 
 ![aws_architecture](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/d93f7ca9-41c3-4ddf-a49a-54f7d9fd70f8)
