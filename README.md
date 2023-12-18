@@ -23,7 +23,12 @@ In this section, I include all the necessary dependencies needed to reproduce th
 * Focus on individuals who are currently without insurance as they represent a new market.
 * Investigate and utilize effective strategies for customer outreach.
 
-![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/c3ede244-eae7-4497-b3ac-636054cc9611)
+# Exploratory Data Analysis EDA.
+* Our data is heavily imbalanced  with 87.74% of data have Response of 0 and just over 12% with Response 1 (People who are interested in buying Insurance)
+   ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/5c3e4954-0a5c-48ba-8e1d-b0b8cf3451a0)
+
+* The data suggests that while the majority of the population is relatively young, with most individuals aged between 20 to 27 years, those who are interested in purchasing insurance tend to be older, with an average age of 45 years. Conversely, the average age of individuals who are not interested in insurance is 37 years, indicating that interest in insurance increases with age.
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/620b94e1-5c48-4ea7-a7fe-209c0775d82e)
 
 
 ![aws_architecture](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/d93f7ca9-41c3-4ddf-a49a-54f7d9fd70f8)
