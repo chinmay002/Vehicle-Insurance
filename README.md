@@ -35,11 +35,12 @@ In this section, I include all the necessary dependencies needed to reproduce th
 
 * Individuals without a driving license (Driving_License = 0) mostly decline insurance. A very small percentage of those without a driving license accept insurance.
 Individuals with a driving license (Driving_License = 1) are more inclined to accept insurance. Despite having a driving license, there is still a notable portion that declines insurance.
-**Possession of a driving license seems to correlate with a higher likelihood of accepting insurance**
+* **Possession of a driving license seems to correlate with a higher likelihood of accepting insurance**
 ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/4c3d6478-85de-4a4a-8306-daeb3ca8c0a4)
 
 * Individuals not previously insured (Previously_Insured = 0) show a higher likelihood of declining insurance (Response 0). A smaller proportion of those not previously insured are willing to accept insurance (Response 1).
 * Individuals who were previously insured (Previously_Insured = 1) exhibit an overwhelmingly high acceptance rate for insurance (Response 1). The response of previously insured individuals to decline insurance (Response 0) is minimal.
+
 ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/88992a47-413d-4703-a1a6-f7b3e247b655)
 
 * For vehicles aged 1-2 years, a majority did not accept insurance (Response 0), with a smaller percentage accepting (Response 1). Vehicles less than 1 year old show a high insurance acceptance rate (Response 1) and a lower non-acceptance rate (Response 0).
