@@ -40,14 +40,19 @@ Individuals with a driving license (Driving_License = 1) are more inclined to ac
 
 * Individuals not previously insured (Previously_Insured = 0) show a higher likelihood of declining insurance (Response 0). A smaller proportion of those not previously insured are willing to accept insurance (Response 1).
 * Individuals who were previously insured (Previously_Insured = 1) exhibit an overwhelmingly high acceptance rate for insurance (Response 1). The response of previously insured individuals to decline insurance (Response 0) is minimal.
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/59c7d50d-1ae7-4b9f-adf1-de538bce24b3)
 
-![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/88992a47-413d-4703-a1a6-f7b3e247b655)
 
 * For vehicles aged 1-2 years, a majority did not accept insurance (Response 0), with a smaller percentage accepting (Response 1). Vehicles less than 1 year old show a high insurance acceptance rate (Response 1) and a lower non-acceptance rate (Response 0).
 * Vehicles older than 2 years have a balanced distribution, with a notable percentage declining insurance (Response 0) and a significant proportion accepting it (Response 1)
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/37540a17-976f-4333-9430-2db09028e43b)
 
 
-![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/59c7d50d-1ae7-4b9f-adf1-de538bce24b3)
+## Results and evaluation
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/aa533e57-bc9b-4557-ac95-52ae97f8e83f) ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/0fc2bb3c-e234-40d5-806d-f096fd5e6d9c)
+
+
+
 
 
 
