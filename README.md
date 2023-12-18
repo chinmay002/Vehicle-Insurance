@@ -53,7 +53,47 @@ Individuals with a driving license (Driving_License = 1) are more inclined to ac
 
 
 
+## SMOTE :
+* Smote stands for synthetic minority over-sampling technique.
+* Increases the number of instances in the minority class to balance dataset.
+* Generates synthetic samples rather than duplicating existing ones.
+* Works by interpolating between existing minority class instances.
+* Identifies k-nearest neighbors for minority instances to create new samples.
 
+![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/d07f1c8b-8c84-443f-82bb-304d7bfe046d)
 
+## Actionable Insights
+* Target People who has Driving License
+* Customers with no insurance are more likely to buy Insurance
+* Target Customers who has very old Vehicles
+
+## MLOPS AWS ARCHITECTURE
+
+* **Datasets:**
+The datasets are stored in a specific AWS S3 bucket, which acts as the storage layer for the raw data.
+
+* Stage 01 - ETL (Extract, Transform, Load):
+
+  * The process begins with an AWS CodePipeline, which orchestrates the ETL workflow.
+  * AWS CodeBuild, a service for compiling source code and running tests, is invoked to process the ETL jobs.
+  * Amazon SageMaker’s ETL Processor (possibly a SageMaker Processing Job) is used to perform the ETL operations on the datasets.
+  * Post-ETL, the processed data might be stored back into an S3 bucket for subsequent stages or analytics.
+* Stage 02 - Train_Validation:
+
+  * Another AWS CodePipeline initiates the training and validation stage.
+  * AWS CodeBuild  to prepare or initiate the machine learning training jobs.
+  * Amazon SageMaker is used to train and validate the machine learning models.
+  * Amazon Simple Notification Service (SNS) is configured to send email notifications regarding the status of the training jobs.
+
+* Approval Process:
+
+An approval step is included where a human or automated approver reviews the results of the training and validation.
+Upon approval, the model artifacts are stored in a registry for versioning and tracking – this could be Amazon ECR (Elastic Container Registry) for Docker container images of the model or another versioning system.
+
+* Stage 03 - Deployment:
+
+  * AWS CodePipeline manages the deployment stage.
+  * Amazon SageMaker is used to deploy the trained model to a SageMaker Endpoint for real-time inference.
+  * Amazon EventBridge is  used to trigger or schedule the deployment process or to integrate with other AWS services
 
 ![aws_architecture](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/d93f7ca9-41c3-4ddf-a49a-54f7d9fd70f8)
