@@ -48,12 +48,12 @@ Individuals with a driving license (Driving_License = 1) are more inclined to ac
 ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/37540a17-976f-4333-9430-2db09028e43b)
 
 
-## Results and evaluation
+# Results and evaluation
 ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/aa533e57-bc9b-4557-ac95-52ae97f8e83f) ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/0fc2bb3c-e234-40d5-806d-f096fd5e6d9c)
 
 
 
-## SMOTE :
+# SMOTE :
 * Smote stands for synthetic minority over-sampling technique.
 * Increases the number of instances in the minority class to balance dataset.
 * Generates synthetic samples rather than duplicating existing ones.
@@ -62,7 +62,7 @@ Individuals with a driving license (Driving_License = 1) are more inclined to ac
 
 ![image](https://github.com/chinmay002/Vehicle-Insurance/assets/60249099/d07f1c8b-8c84-443f-82bb-304d7bfe046d)
 
-## Actionable Insights
+# Actionable Insights
 * Target People who has Driving License
 * Customers with no insurance are more likely to buy Insurance
 * Target Customers who has very old Vehicles
